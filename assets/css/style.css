@@ -18,7 +18,8 @@ ul{
     block-size: 50px;
 }
 ul li{
-    padding: 20px;
+    color:#ffffff;
+    padding: 30px;
 }
 ul li a:link,ul li a:visited{
     color:#ffffff;
@@ -30,4 +31,7 @@ ul li a:link,ul li a:visited{
 }
 ul li a:hover, ul li a:active{
     background-color:#590202;
+}
+ul li ul li{
+    padding:10px;
 }
