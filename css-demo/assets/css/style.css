@@ -50,6 +50,7 @@ img{
 body{
   font-family: 'Raleway', sans-serif;
   margin:0;
+  line-height:1.5
 }
 
 header.primary{
@@ -237,15 +238,83 @@ border-bottom: 3px double #c0c0c0;
   padding: 10px 10px;
 }
 
+table{
+  width:100%;
+  border:1px solid #c0c0c0;
+  border-collapse:collapse;
+}
 
+table caption{
+  color:#3b638b;
+  padding:10px;
+  font-weight:bold;
+  font-size:1.4rem;
+}
 
+table tr:nth-child(even){
+  background: rgba(0,0,0,.1)
+}
 
+table tr:hover{
+  background: rgba(0,0,0,.2)
+}
 
+table th{
+  background-color:#172635;
+  color:#ffffff;
+  width:33%;
+  padding:10px;
+}
 
+table td {
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
 
+#additional-elements ol{
+  list-style-type:upper-roman;
+}
 
+#additional-elements li{
 
+}
 
+#additional-elements ul ul{
+  list-style-type:square;
+}
+
+#additional-elements dl{
+  line-height:1.5
+}
+
+#additional-elements dt{
+  font-weight:bold;
+  font-size:1.2rem;
+}
+
+#additional-elements dd{
+  margin:0;
+}
+
+dd + dt{
+  margin-top:1.4rem;
+}
+
+#additional-elements blockquote{
+  background:rgba(0,0,0,.15);
+  padding: 40px 60px;
+  border:5px double grey;
+  border-radius:16px;
+  font-size:1.2em;
+}
+
+#additional-elements cite{
+  display:block;
+  font-size:.6em;
+  text-align:right;
+  margin-top:1.5rem;
+  font-weight:bold;
+}
 
 @media screen and (max-width:690px){
   
