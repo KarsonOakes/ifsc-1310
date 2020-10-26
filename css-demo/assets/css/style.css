@@ -48,7 +48,7 @@ img{
 
 /* ---------------Global Styles----------------- */
 body{
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Turret Road', cursive;
   margin:0;
   line-height:1.5
 }
@@ -57,7 +57,7 @@ header.primary{
   background-color:#3b638b;
   text-align:center;
   color:#ffffff;
-  text-shadow: 2px 2px #000;
+  text-shadow: 1px 1px #000;
   /* Longform */
   padding-top:40px;
   padding-right:40px;
@@ -70,7 +70,8 @@ header.primary{
   /* Shorthand  T,R,B,L */
   padding: 40px 40px 20px 40px;
   
-background-image: url("data:image/svg+xml,%3Csvg width='42' height='44' viewBox='0 0 42 44' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='Page-1' fill='none' fill-rule='evenodd'%3E%3Cg id='brick-wall' fill='%239C92AC' fill-opacity='0.25'%3E%3Cpath d='M0 0h42v44H0V0zm1 1h40v20H1V1zM0 23h20v20H0V23zm22 0h20v20H22V23z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+background-color: #43cc9c;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='80' height='80' viewBox='0 0 80 80'%3E%3Cg fill='%23792e8b' fill-opacity='0.4'%3E%3Cpath fill-rule='evenodd' d='M0 0h40v40H0V0zm40 40h40v40H40V40zm0-40h2l-2 2V0zm0 4l4-4h2l-6 6V4zm0 4l8-8h2L40 10V8zm0 4L52 0h2L40 14v-2zm0 4L56 0h2L40 18v-2zm0 4L60 0h2L40 22v-2zm0 4L64 0h2L40 26v-2zm0 4L68 0h2L40 30v-2zm0 4L72 0h2L40 34v-2zm0 4L76 0h2L40 38v-2zm0 4L80 0v2L42 40h-2zm4 0L80 4v2L46 40h-2zm4 0L80 8v2L50 40h-2zm4 0l28-28v2L54 40h-2zm4 0l24-24v2L58 40h-2zm4 0l20-20v2L62 40h-2zm4 0l16-16v2L66 40h-2zm4 0l12-12v2L70 40h-2zm4 0l8-8v2l-6 6h-2zm4 0l4-4v2l-2 2h-2z'/%3E%3C/g%3E%3C/svg%3E");
 
 }
 
@@ -112,7 +113,7 @@ header.primary nav ul li a:link, header.primary nav ul li a:visited{
   color:#ffffff;
   text-decoration:none;
   background-color:#000000;
-  background-color:rgba(0,0,0,.4);
+  background-color:#1938FF;
   padding: 8px 16px;
   border-radius:20px;
   transition:.5s;
@@ -120,11 +121,11 @@ header.primary nav ul li a:link, header.primary nav ul li a:visited{
 
 
 header.primary nav ul li a:hover, header.primary nav ul li a:active{
-  background-color:rgba(0,0,0,.8);
+  background-color:#EBB400;
 }
 
 #intro{
-  border-bottom:1px solid #c0c0c0;
+  border-bottom:3px groove #000;
   padding-bottom: 1.5em;
 }
 
@@ -133,7 +134,10 @@ header.primary nav ul li a:hover, header.primary nav ul li a:active{
 }
 
 #intro h2{
-  color:#3b638b;
+  color:#EB008C;
+  border:solid #EB008C;
+  padding:20px 10px;
+  text-align:center;
 }
 
 #content{
@@ -145,9 +149,9 @@ padding-bottom:2.6rem;
 }
 
 #content article.post{
-  width:30%;
+  width:40%;
   box-shadow: 0 4px 8px rgba(0,0,0,.4);
-  padding:.7em;
+  padding:1em;
   transition:.5s;
   border-radius:10px;
   font-size:.9rem;
@@ -221,8 +225,10 @@ footer#colophon{
 }
 
 #additional-elements h2{
-color:#3b638b;
-border-bottom: 3px double #c0c0c0;
+color:#EB008C;
+  border:solid #EB008C;
+  padding:20px 10px;
+  text-align:center;
 }
 
 #additional-elements a:link, #additional-elements a:visited{
@@ -240,7 +246,7 @@ border-bottom: 3px double #c0c0c0;
 
 table{
   width:100%;
-  border:1px solid #c0c0c0;
+  border:5px inset #c0c0c0;
   border-collapse:collapse;
 }
 
@@ -248,20 +254,27 @@ table caption{
   color:#3b638b;
   padding:10px;
   font-weight:bold;
-  font-size:1.4rem;
+  font-size:2rem;
 }
 
 table tr:nth-child(even){
-  background: rgba(0,0,0,.1)
+  background-color: #43cc9c
+}
+table tr:nth-child(odd){
+  background-color:#792e8b;
 }
 
-table tr:hover{
-  background: rgba(0,0,0,.2)
+table tr:hover:nth-child(odd){
+  background: #aa3bc5;
+}
+table tr:hover:nth-child(even){
+  background:#b1f7df;
 }
 
 table th{
-  background-color:#172635;
-  color:#ffffff;
+  background-color: #792e8b;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%2343cc9c' fill-opacity='0.4' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  color: #ffffff;
   width:33%;
   padding:10px;
 }
@@ -269,6 +282,16 @@ table th{
 table td {
   border:1px solid #c0c0c0;
   padding:5px;
+}
+
+ol{
+ text-decoration:line-through; 
+}
+ul{
+  text-decoration:underline;
+}
+ul ul{
+  text-decoration:overline;
 }
 
 #additional-elements ol{
@@ -304,8 +327,8 @@ dd + dt{
   background:rgba(0,0,0,.15);
   padding: 40px 60px;
   border:5px double grey;
-  border-radius:16px;
-  font-size:1.2em;
+  border-radius:0px;
+  font-size:2em;
 }
 
 #additional-elements cite{
@@ -314,6 +337,7 @@ dd + dt{
   text-align:right;
   margin-top:1.5rem;
   font-weight:bold;
+  text-decoration:underline;
 }
 
 @media screen and (max-width:690px){
