@@ -15,7 +15,6 @@ ul{
     list-style-type: none;
     padding: 20px 40px;
     padding:0;
-    block-size: 50px;
 }
 ul li{
     color:#ffffff;
@@ -34,4 +33,10 @@ ul li a:hover, ul li a:active{
 }
 ul li ul li{
     padding:10px;
+}
+section#progenhan {
+    background-color:#ffffff;
+    border: 6px solid #F20505;
+    padding: 10px;
+    font-family: 'Lora', serif;
 }
