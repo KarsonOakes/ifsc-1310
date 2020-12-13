@@ -306,21 +306,16 @@ section#articles h2 {
 /* ---------------Gallery------------- */
 
 .gallery {
-	width: 730px;
+  width: auto;
 	margin-top: 40px;
 	margin-right: auto;
 	margin-left: auto;
-	height: 479px;
+	height: auto;
 	overflow: hidden; /*Avoids showing all of the images momentarily while JS loads */
 	max-width: 100%;
-	border: 15px solid #17D0FF;
-	border-radius: 20px;
+	max-height: 100%;
 }
-.gallery img:nth-child(4){
-	max-width: 100%;
-  height: 479px;
-  width: 700px;
-}
+
 
 /*------ FAQ --------*/
 
