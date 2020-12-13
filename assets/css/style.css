@@ -40,3 +40,9 @@ section#progenhan {
     padding: 10px;
     font-family: 'Lora', serif;
 }
+section#revision {
+    background-color:#ffffff;
+    border: 6px solid #F20505;
+    padding: 10px;
+    font-family: 'Lora', serif;
+}
