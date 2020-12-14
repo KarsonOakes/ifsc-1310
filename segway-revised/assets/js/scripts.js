@@ -1,9 +1,9 @@
 $(document).ready(function() {
-
+//doing fun gallery stuff
 $('.gallery').cycle({
 	fx:     'fade'
 	});
-	
+	//CLICK THROUGH THOSE ARTICLES!
 	$("#articles .post:not(:first)").hide();
 
     $('.next').click(function () {
