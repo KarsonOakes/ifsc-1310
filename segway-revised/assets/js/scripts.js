@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 $('.gallery').cycle({
-	fx:     'turnDown'
+	fx:     'fade'
 	});
 	
 	$("#articles .post:not(:first)").hide();
